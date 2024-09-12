@@ -1,0 +1,122 @@
+/* Resetando margens, preenchimentos e ajustando box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos gerais para o layout */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.topo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  min-height: 100%;
+  width: 100%;
+}
+
+.coluna {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.linha {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+  flex: 1;
+}
+
+button {
+  display: block;
+  margin-bottom: 10px;
+  background: linear-gradient(45deg, #5dd567, #ffffff);
+  color: white;
+  font-family: 'Roboto', 'sans-serif';
+  font-weight: bold;
+  border: transparent;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px #5dd567;
+  text-shadow:
+    -0.5px -0.5px 0 #2f8703,
+    0.5px -0.5px 0 #2f8703,
+    -0.5px 0.5px 0 #2f8703,
+    0.5px 0.5px 0 #2f8703;
+}
+
+.btnroxo {
+  background: linear-gradient(45deg, #8A2BE2, #ffffff);
+  box-shadow: 0px 0px 15px #28103C;
+  text-shadow:
+    -0.5px -0.5px 0 #28103C,
+    0.5px -0.5px 0 #28103C,
+    -0.5px 0.5px 0 #28103C,
+    0.5px 0.5px 0 #28103C;
+}
+
+.btnroxo:hover {
+  background: linear-gradient(45deg, #2A084A, #ffffff); /* Muda a cor no hover */
+}
+
+button:hover {
+  background: linear-gradient(45deg, #1c4d03, #ffffff);
+}
+
+/* Fazendo o titulo de re:zero*/
+.aula {
+            color: #7671b3; /* Cor roxa similar à usada em Re:Zero */
+  letter-spacing: -5px;
+  margin-right: -10px;
+        }
+.maiusculo {
+  margin-right:-10px;
+}
+
+.vetores  {
+            color: #000000; /* Cor preta */
+  letter-spacing: -5px;
+  font-family: 'Times New Roman', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+        }
+.raise {
+            position: relative;
+            bottom: 7px; /* Ajuste o valor para alinhar conforme necessário */
+            letter-spacing: -5px;
+  margin-left: -15px;
+  margin-right: -15px;
+        }
+
+h1 {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  text-shadow:
+    0px 0px 8px rgba(255, 255, 255, 0.6),  /* Sombra central suave branca */
+    0px 0px 16px rgba(255, 255, 255, 0.4), /* Sombra mais larga e difusa branca */
+    0px 0px 32px rgba(255, 255, 255, 0.2); /* Sombra ainda mais ampla branca */
+}

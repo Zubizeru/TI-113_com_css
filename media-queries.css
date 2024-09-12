@@ -1,0 +1,127 @@
+/* Media queries para dispositivos pequenos em modo retrato */
+@media (min-width: 320px) and (max-width: 1023px) and (orientation: portrait) {
+
+  .topo {
+    flex: 8;
+    margin-bottom: -0.8rem;
+  }
+  .coluna {
+    width: 100%;
+    justify-content: end;
+    padding-bottom: 0;
+    flex: 1;
+    }
+  .linha {
+    padding: 20px;
+    min-height: 100%;
+  }
+  body {
+    background-image: url('Echidna Móvel Retrato.jpg');
+    background-position: center;
+  }
+  button {
+    width: 9rem;
+    height: 3.2rem;
+    font-size: 1.3rem;
+    padding: 0.3rem 0.6rem;
+    margin-bottom: 1.5rem;
+  }
+  h1 {
+    font-size: 60px;
+  }
+
+  .maiusculo {
+    font-size: 75px; /* Ajuste o tamanho da fonte para "Aula" */
+}
+  .vetores {
+    font-size: 50px;
+  }
+}
+
+/* Media queries para dispositivos no modo paisagem */
+@media (orientation: landscape) {
+  .container {
+    justify-content: flex-start;
+    width: 70%;
+    margin-left: 40px;
+  }
+  .topo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -15px;
+    margin-top: -15px;
+    flex: 1;
+  }
+  .coluna {
+    flex: 3;
+  }
+  .linha {
+    padding: 1px;
+  }
+  body {
+    background-image: url('Echidna Desktop.jpg');
+    background-color: #554756;
+    background-size: contain;
+    background-position: right;
+  }
+  button {
+    width: 10rem;
+    height: 2.6rem;
+    font-size: 1rem;
+    margin: 5px auto;
+    padding: 5px;
+  }
+  h1 {
+    font-size: 75px;
+  }
+  .maiusculo {
+    font-size: 90px;
+  }
+  .vetores {
+    font-size: 60px;
+  }
+}
+/* Media queries para dispositivos maiores, como desktops */
+@media (min-width: 1024px) {
+  .container {
+    justify-content: flex-start;
+    width: 70%;
+    margin-left: 40px;
+  }
+  .topo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -20px;
+    margin-top: -20px;
+    flex: 0.5;
+  }
+  .coluna {
+    flex: 5;
+  }
+  .linha {
+    padding: 5px;
+  }
+  body {
+    background-image: url('Echidna Desktop.jpg');
+    background-color: #554756;
+    background-repeat: no-repeat;
+  }
+  button {
+    width: 20rem;
+    height: 7rem;
+    font-size: 2rem;
+    padding: 1rem 1.3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
+  }
+  h1 {
+    font-size: 90px;
+    margin-top: 3rem;
+  }
+  .maiusculo {
+    font-size: 105px; /* Ajuste o tamanho da fonte para "Aula" */
+}
+  .vetores {
+    font-size: 75px;
+  }
+}
