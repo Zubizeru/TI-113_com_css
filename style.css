@@ -54,22 +54,12 @@ body {
 button {
   display: block;
   margin-bottom: 10px;
-  background: linear-gradient(45deg, #5dd567, #ffffff);
+  background: linear-gradient(45deg, #8A2BE2, #ffffff);
   color: white;
   font-family: 'Roboto', 'sans-serif';
   font-weight: bold;
   border: transparent;
   border-radius: 10px;
-  box-shadow: 0px 0px 15px #5dd567;
-  text-shadow:
-    -0.5px -0.5px 0 #2f8703,
-    0.5px -0.5px 0 #2f8703,
-    -0.5px 0.5px 0 #2f8703,
-    0.5px 0.5px 0 #2f8703;
-}
-
-.btnroxo {
-  background: linear-gradient(45deg, #8A2BE2, #ffffff);
   box-shadow: 0px 0px 15px #28103C;
   text-shadow:
     -0.5px -0.5px 0 #28103C,
@@ -78,15 +68,11 @@ button {
     0.5px 0.5px 0 #28103C;
 }
 
-.btnroxo:hover {
-  background: linear-gradient(45deg, #2A084A, #ffffff); /* Muda a cor no hover */
-}
-
 button:hover {
-  background: linear-gradient(45deg, #1c4d03, #ffffff);
+  background: linear-gradient(45deg, #2A084A, #ffffff);;
 }
 
-/* Fazendo o titulo de re:zero*/
+/* Fazendo o titulo de Re:zero*/
 .aula {
             color: #7671b3; /* Cor roxa similar à usada em Re:Zero */
   letter-spacing: -5px;
